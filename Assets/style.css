@@ -1,0 +1,161 @@
+* {
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(173,138,182,1) 0%, rgba(139,89,177,1) 25%, rgba(173,138,182,1) 50%, rgba(139,89,177,1) 75%, rgba(173,138,182,1) 100%);
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Header section , Including Nav bar and Header */
+header {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(173,138,182,1) 0%, rgba(139,89,177,1) 25%, rgba(173,138,182,1) 50%, rgba(139,89,177,1) 75%, rgba(173,138,182,1) 100%);
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+#self-photo {
+    max-width: 100%;
+    height: 65px;
+    border-radius: 20%;
+    padding: 1px;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+header nav {
+    font-size: 20px;
+    margin-right: 5px;
+    } 
+header nav ul {
+    list-style: none;
+    color: black;
+} 
+header nav ul li {
+    display: inline; 
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+}
+
+/* For Titles and also nav header text */
+.h1, .h2, .h3, .h4, .h5 {
+    color: black;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.row-about, .row-mywork, .row-contact {
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.column1 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+.column2 {
+    width: 75%;
+}
+
+.full-body {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+}
+/* Main sections within body section */
+.about, .contact {
+    margin: 3px;
+    padding: 5px;
+    text-align: left;
+} 
+.mywork {
+    margin: 5px;
+    position: relative; 
+    padding: 5px;
+    text-align: left;
+}
+/* This section covers the cards within the 'my work' section. It is broken into main card at the top, and other links thereafter */
+.main-card-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    display: inline-block;
+    margin: 1px;
+    margin-right: 50px;
+    padding: 1px;
+}
+#main-card-image-link {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    display: inline-flex;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 1px 3px 0px;
+    margin: 2px;
+    padding: 1px;
+}
+.card-container, .card-container-2 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1px;
+    margin-right: 50px;
+    padding: 1px;
+    text-align: center;
+}
+.content-card, .content-card-2 {
+    width: 380px;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    color:black;
+    border: 1px solid black;
+    box-shadow: 0px 1px 4px 0px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#content-card-link, #content-card-link-2 {
+    width: 380px;
+    height: 280px;
+    display: flex;
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    text-align:left;
+    width: 100%;
+    list-style: none;
+    border: none;
+    background-image: none;
+}
+
+#contact ul li {
+    display: inline;
+}
