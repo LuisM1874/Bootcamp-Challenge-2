@@ -159,3 +159,11 @@ a {
 #contact ul li {
     display: inline;
 }
+
+/* Added media query */
+
+@media screen and (max-width: 800px) {
+    body {
+        background: white;
+    }
+}
